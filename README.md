@@ -1,14 +1,24 @@
-# Welcome to your Lovable project
+# MERN Resume Portfolio
+
+This is my resume, and I want to design a portfolio website using MERN Technology.
+
+Things I want to make sure during the development of portfolio:
+
+1. It should be well structured, 2. Very well optimised.
+
+There must be things that I'm not aware of at this moment, so please do analyse from your end to and suggest a project build plan.
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://join2yash.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/e83c594d-7353-4dbe-b9c3-53d061df7a5f).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +30,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
