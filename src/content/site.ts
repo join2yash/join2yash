@@ -7,7 +7,7 @@ export const site = {
   location: "New Delhi, India",
   email: "parasharysh16299@gmail.com",
   phone: "+91 7838866778",
-  linkedin: "https://www.linkedin.com/in/yash-parashar",
+  linkedin: "https://www.linkedin.com/in/join2yash",
   resumeUrl: resumeAsset.url,
   summary:
     "Business Systems & Data Analyst with 3+ years turning complex enterprise data and business processes into measurable outcomes across Finance, Procurement and Inventory — on production systems serving 10,000+ daily users.",
