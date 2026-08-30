@@ -21,7 +21,7 @@ export const projects: Project[] = [
     title: "Credit Limit Management Framework",
     kind: "Enterprise",
     org: "Staqo Software — Oracle ERP",
-    period: "2024",
+    period: "2024-2025",
     headline: "Cut financial risk exposure 15% and lifted receivables collection 22%",
     summary:
       "A configurable credit-control framework that decouples business rules from application code, letting Finance tighten risk policy without an engineering release.",
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     title: "Warehouse Digital Transformation",
     kind: "Enterprise",
     org: "Staqo Software — Inventory & Shop Floor",
-    period: "2023–2024",
+    period: "2022–2023",
     headline: "Cut dispatch time 55%, paper usage 40%, and won an ESG Award",
     summary:
       "A scalable digitisation architecture for shop-floor and inventory workflows, delivered under an ESG mandate without pausing daily dispatch.",
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     title: "Stock Take Automation",
     kind: "Enterprise",
     org: "Staqo Software — Warehouse Operations",
-    period: "2023",
+    period: "2024",
     headline: "Eliminated manual reconciliation and made stock counts audit-ready",
     summary:
       "A reusable stock verification and approval framework, adopted across multiple warehouse operations after the first rollout.",
@@ -96,7 +96,7 @@ export const projects: Project[] = [
     title: "Fair Pay Analyzer",
     kind: "Independent",
     org: "Independent — live production tool",
-    period: "2025–2026",
+    period: "2026",
     headline: "AI salary-benchmarking platform for IT professionals in India",
     summary:
       "Independently built and deployed an AI-powered platform that generates salary-benchmarking insights from resume analysis — a manual consulting workflow turned into a self-serve product.",
