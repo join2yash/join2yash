@@ -83,13 +83,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Yash Parashar — Business Systems & Data Analyst" },
-      {
-        name: "description",
-        content:
-          "Business Systems & Data Analyst with 3+ years in enterprise data, analytics and automation across Finance, Procurement and Inventory.",
-      },
       { name: "author", content: "Yash Parashar" },
+
       { property: "og:site_name", content: "Yash Parashar" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -4,11 +4,14 @@ import { posts } from "@/content/posts";
 
 const staticPaths = ["/", "/projects", "/experience", "/about", "/blog", "/contact"];
 
+const BASE_URL = "https://join2yash.lovable.app";
+
 export const Route = createFileRoute("/sitemap.xml")({
   server: {
     handlers: {
-      GET: ({ request }) => {
-        const origin = new URL(request.url).origin;
+      GET: () => {
+        const origin = BASE_URL;
+
         const urls = [
           ...staticPaths.map((p) => ({ loc: p, priority: p === "/" ? "1.0" : "0.8" })),
           ...projects.map((p) => ({ loc: `/projects/${p.slug}`, priority: "0.7" })),
