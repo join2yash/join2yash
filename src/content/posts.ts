@@ -20,7 +20,7 @@ export const posts: Post[] = [
     body: [
       {
         paragraphs: [
-          "Performance complaints almost never arrive as performance complaints. They arrive as \"the dispatch screen is stuck\" or \"month-end close is taking two days.\" The work is translating that into a measurable statement before touching anything.",
+          'Performance complaints almost never arrive as performance complaints. They arrive as "the dispatch screen is stuck" or "month-end close is taking two days." The work is translating that into a measurable statement before touching anything.',
         ],
       },
       {
@@ -53,7 +53,7 @@ export const posts: Post[] = [
     title: "Business Rules Do Not Belong in Your Code",
     description:
       "Why hardcoded policy creates a permanent engineering dependency, and how a configurable rules layer removed it for a finance team.",
-    date: "2026-04-02",
+    date: "2026-07-02",
     readingTime: "5 min read",
     tags: ["Architecture", "Business Analysis", "ERP"],
     body: [
@@ -88,9 +88,8 @@ export const posts: Post[] = [
   {
     slug: "digitising-a-shop-floor-without-stopping-it",
     title: "Digitising a Shop Floor Without Stopping It",
-    description:
-      "Lessons from replacing paper inventory workflows while dispatch kept running every single day.",
-    date: "2026-01-22",
+    description: "Lessons from replacing paper inventory workflows while dispatch kept running every single day.",
+    date: "2026-07-22",
     readingTime: "5 min read",
     tags: ["Process Design", "Inventory", "Change Management"],
     body: [
