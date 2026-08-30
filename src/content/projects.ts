@@ -17,31 +17,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "credit-limit-management-framework",
-    title: "Credit Limit Management Framework",
-    kind: "Enterprise",
-    org: "Staqo Software — Oracle ERP",
-    period: "2024-2025",
-    headline: "Cut financial risk exposure 15% and lifted receivables collection 22%",
-    summary:
-      "A configurable credit-control framework that decouples business rules from application code, letting Finance tighten risk policy without an engineering release.",
-    challenge:
-      "Credit exposure was growing while order controls were hardcoded. Tightening risk rules meant a development cycle every time, and any misstep risked blocking legitimate order fulfilment.",
-    approach: [
-      "Analysed historical credit exposure and order-hold data to locate where controls were leaking.",
-      "Mapped the decision points with Finance stakeholders and separated policy (limits, tolerances, escalation) from enforcement logic.",
-      "Designed a rules table plus a PL/SQL evaluation engine so limits, grace thresholds and approval routes are configuration, not code.",
-      "Built order-hold and release workflows with a full audit trail for every credit decision.",
-    ],
-    outcomes: [
-      { value: "15%", label: "Lower financial risk exposure" },
-      { value: "22%", label: "Increase in receivables collection" },
-      { value: "0", label: "Developer dependency for policy changes" },
-    ],
-    stack: ["Oracle PL/SQL", "Oracle ERP", "Oracle Forms & Reports", "SQL tuning"],
-    featured: true,
-  },
-  {
     slug: "warehouse-digital-transformation",
     title: "Warehouse Digital Transformation",
     kind: "Enterprise",
@@ -90,6 +65,31 @@ export const projects: Project[] = [
       { value: "Audit-ready", label: "Full adjustment traceability" },
     ],
     stack: ["Oracle PL/SQL", "Oracle Inventory", "Workflow automation"],
+  },
+  {
+    slug: "credit-limit-management-framework",
+    title: "Credit Limit Management Framework",
+    kind: "Enterprise",
+    org: "Staqo Software — Oracle ERP",
+    period: "2024-2025",
+    headline: "Cut financial risk exposure 15% and lifted receivables collection 22%",
+    summary:
+      "A configurable credit-control framework that decouples business rules from application code, letting Finance tighten risk policy without an engineering release.",
+    challenge:
+      "Credit exposure was growing while order controls were hardcoded. Tightening risk rules meant a development cycle every time, and any misstep risked blocking legitimate order fulfilment.",
+    approach: [
+      "Analysed historical credit exposure and order-hold data to locate where controls were leaking.",
+      "Mapped the decision points with Finance stakeholders and separated policy (limits, tolerances, escalation) from enforcement logic.",
+      "Designed a rules table plus a PL/SQL evaluation engine so limits, grace thresholds and approval routes are configuration, not code.",
+      "Built order-hold and release workflows with a full audit trail for every credit decision.",
+    ],
+    outcomes: [
+      { value: "15%", label: "Lower financial risk exposure" },
+      { value: "22%", label: "Increase in receivables collection" },
+      { value: "0", label: "Developer dependency for policy changes" },
+    ],
+    stack: ["Oracle PL/SQL", "Oracle ERP", "Oracle Forms & Reports", "SQL tuning"],
+    featured: true,
   },
   {
     slug: "fair-pay-analyzer",
