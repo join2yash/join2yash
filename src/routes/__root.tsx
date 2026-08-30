@@ -85,7 +85,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "author", content: "Yash Parashar" },
 
-      { name: "author", content: "Yash Parashar" },
       { property: "og:site_name", content: "Yash Parashar" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
